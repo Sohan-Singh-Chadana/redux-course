@@ -1,0 +1,10 @@
+# Ignore all node_modules folders
+**/node_modules
+# Parcel build output
+**dist/
+
+# Parcel cache
+**parcel-cache/
+
+# Environment variables
+**.env

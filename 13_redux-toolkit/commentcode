@@ -1,0 +1,59 @@
+// let state = {
+//     count: 0
+// }
+
+// let prevState = state
+
+// function increment() {
+//     //! first trick
+//     //? Mutating state
+//     // state.count = state.count + 1
+
+//     //! first 0.1
+//     //? not Mutating state
+//     state = { count: state.count + 1 }
+
+//     //! second trick
+//     //? not Mutating state
+//     // state = Object.assign({}, state, { count: state.count + 1 })
+
+//     //! third trick
+//     //? not Mutating state
+//     // state = { ...state, count: state.count + 1 }
+
+//     console.log(state)
+// }
+// increment()
+// increment()
+// increment()
+// increment()
+
+// let action = {
+//     type: "increse-post"
+// }
+
+// console.log(reduxState)
+// reduxState = reducer(reduxState, { type: "post/increment" })
+// console.log(reduxState)
+// reduxState = reducer(reduxState, { type: "post/increment" })
+// console.log(reduxState)
+// reduxState = reducer(reduxState, { type: "post/decrement" })
+// console.log(reduxState)
+// reduxState = reducer(reduxState, { type: "post/incrementBy", payload: 10 })
+// console.log(reduxState)
+// reduxState = reducer(reduxState, { type: "post/incrementBy", payload: 20 })
+// console.log(reduxState)
+
+//? switch case to object convert
+// const animalSound = {
+//   dog: "Woof!",
+//   cat: "Meow!",
+//   bird: "Chirp!",
+// };
+
+// function getAnimalSound(animal) {
+//   return animalSound[animal] || "Unknown animal";
+// }
+
+// console.log(getAnimalSound("dog"));
+// console.log(getAnimalSound("cow"));
