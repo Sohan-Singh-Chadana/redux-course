@@ -8,3 +8,16 @@
 
 # Environment variables
 **.env
+
+
+# System files
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# VSCode files
+.vscode/
+!.vscode/settings.json  # Exclude everything in .vscode except settings.json
+
+# Windows system files
+**/Thumbs.db
